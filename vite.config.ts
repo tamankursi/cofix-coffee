@@ -5,7 +5,11 @@ import {defineConfig} from 'vite';
 import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
+  // Support GitHub Pages subpath deployment via BASE_URL env var, or fallback to relative './'
+  const basePath = process.env.BASE_URL || './';
+
   return {
+    base: basePath,
     plugins: [
       react(),
       tailwindcss(),
