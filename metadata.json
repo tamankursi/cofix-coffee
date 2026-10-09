@@ -1,0 +1,6 @@
+{
+  "name": "COFIX - Kedai Kopi & Pemesanan Online",
+  "description": "Website pemesanan kopi online COFIX mobile-first PWA dengan sistem reservasi stok, pembayaran digital, dan dashboard admin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
